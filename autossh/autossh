@@ -1,0 +1,5 @@
+AUTOSSH_POLL=60
+AUTOSSH_FIRST_POLL=30
+AUTOSSH_GATETIME=0
+AUTOSSH_PORT=monitor_port
+SSH_OPTIONS="-N -R remote_port:localhost:local_port host -pport -i /root/.ssh/id_rsa"
